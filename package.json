@@ -1,0 +1,22 @@
+{
+    "name": "zegal-snippets",
+    "displayName": "Zegal Snippets",
+    "description": "Snippets collection for Zegal",
+    "version": "0.0.1",
+    "publisher": "Kiran",
+    "repository": "git@github.com:chaudharykiran/zegal-snippets.git",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript, typescript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

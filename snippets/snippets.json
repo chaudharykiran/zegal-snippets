@@ -1,0 +1,29 @@
+{
+  "Basic Test Template": {
+		"prefix": "componentTest",
+		"scope": "javascript, typescript",
+		"body": [
+			"import {getSetupRaw} from '@zegal/components/src/base/src/common/tests/testMaterialUtils'\n",
+			"import ${2:ComponentName} from '../${1:Component}';\n",
+
+			"const getProps = (extras) => ({",
+			"\t...extras",
+			"})\n",
+			
+			"describe('<${2:ComponentName} />', function() {",
+			"\tit('renders correctly', () => {",
+				"\t\tconst {",
+					"\t\t\tcomponent,",
+					"\t\t} = getSetupRaw(",
+						"\t\t\t${2:ComponentName}, {",
+						"\t\t\t\tcomponentProps: getProps(),",
+						"\t\t\t}",
+					"\t\t)\n",
+
+					"\t\texpect(component.html()).toContain('Some text in html')",
+					"\t\texpect(component.text()).toContain('Send me a reset link')",
+				"\t})",
+			"})"
+		]
+	}
+}
