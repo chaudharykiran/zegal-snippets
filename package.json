@@ -1,25 +1,41 @@
 {
-    "name": "zegal-snippets",
-    "displayName": "Zegal Snippets",
-    "description": "Snippets collection for Zegal",
-    "version": "0.0.1",
-    "publisher": "KiranKumarChaudhary",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:chaudharykiran/zegal-snippets.git"
-    },
-    "engines": {
-        "vscode": "^1.36.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "javascript, typescript",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+  "name": "zegal-snippets",
+  "displayName": "Zegal Snippets",
+  "description": "Snippets collection for Zegal",
+  "version": "0.0.2",
+  "publisher": "KiranKumarChaudhary",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chaudharykiran/zegal-snippets.git"
+  },
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
 }
