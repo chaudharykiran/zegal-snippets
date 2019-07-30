@@ -3,8 +3,11 @@
     "displayName": "Zegal Snippets",
     "description": "Snippets collection for Zegal",
     "version": "0.0.1",
-    "publisher": "Kiran",
-    "repository": "git@github.com:chaudharykiran/zegal-snippets.git",
+    "publisher": "KiranKumarChaudhary",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:chaudharykiran/zegal-snippets.git"
+    },
     "engines": {
         "vscode": "^1.36.0"
     },
